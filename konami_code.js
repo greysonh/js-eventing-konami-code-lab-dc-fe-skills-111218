@@ -7,8 +7,9 @@ function init () {
   document.body.addEventListener("keydown", function(e) {
     const key = e.detail || e.which;
     
-    console.log("key = ")
-    
+    console.log("key = " + key);
+    console.log("index = " + index);
+    console.log("index = " + code[index]);
     
     if (code[index] === key) {
       index ++;
