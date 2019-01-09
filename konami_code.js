@@ -13,11 +13,14 @@ function init () {
     
     if (code[index] === key) {
       index ++;
+      if (index === code.length) {
+        alert("Finish 'em!");
+      }
+      
     } else {
       index = 0;
     }
     
-    console.log(key);
   })
 }
 
