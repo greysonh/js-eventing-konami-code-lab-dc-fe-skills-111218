@@ -7,10 +7,6 @@ function init () {
   document.body.addEventListener("keydown", function(e) {
     const key = (e.detail || e.which);
     
-    console.log("key = " + key);
-    console.log("index = " + index);
-    console.log("code[index]= " + code[index]);
-    
     if (code[index] === key) {
       index ++;
       if (index === code.length) {
