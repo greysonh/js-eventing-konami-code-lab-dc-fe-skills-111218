@@ -6,8 +6,12 @@ function init () {
   
   document.body.addEventListener("keydown", function(e) {
     const key = e.detail || e.which;
+    
+    console.log("key = ")
+    
+    
     if (code[index] === key) {
-      
+      index ++;
     } else {
       index = 0;
     }
