@@ -6,7 +6,11 @@ function init () {
   
   document.body.addEventListener("keydown", function(e) {
     const key = e.detail || e.which;
-    if (code{})
+    if (code[index] === key) {
+      
+    } else {
+      index = 0;
+    }
     
     console.log(key);
   })
