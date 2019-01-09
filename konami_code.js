@@ -9,7 +9,7 @@ function init () {
     
     console.log("key = " + key);
     console.log("index = " + index);
-    console.log("index = " + code[index]);
+    console.log("code[index]= " + code[index]);
     
     if (code[index] === key) {
       index ++;
