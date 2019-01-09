@@ -4,8 +4,4 @@ function init () {
   document.body.addEventListener("keydown", function(e) {
     console.log(e);
   })
-  
-  function clickHandler (e) {
-    
-  }
 }
